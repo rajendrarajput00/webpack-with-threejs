@@ -14,6 +14,22 @@ module.exports = {
         new HtmlWebpackPlugin({
             template:'src/index.html'
         })
-    ]
+    ],
+    module: {
+        rules: [
+         
+           // CSS
+           {
+            test: /\.css$/,
+            use:
+            [
+                'css-loader'
+            ]
+        },
+         
+        ],
+      },
+    
+    
 
 }
