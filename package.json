@@ -24,6 +24,7 @@
     "file-loader": "^6.2.0",
     "git": "^0.1.5",
     "gsap": "^3.9.1",
+    "mini-css-extract-plugin": "^2.4.3",
     "three": "^0.135.0"
   }
 }
